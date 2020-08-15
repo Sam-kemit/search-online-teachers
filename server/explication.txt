@@ -1,0 +1,25 @@
+/**
+ * GET: Buscar ou listar uma informaçao
+ * POST: Criar alguma nova informaçao
+ * PUT: Atualizar uma informaçao existente
+ * DELETE: Deletar ula informaçao existente
+ */
+
+/** PARAMETROS
+ * Corpo (Request Body): Dados para criaçao ou atualizaçao de um registro.
+ * Route Params: Identificar qual recurso eu quero atualizar ou deletar.
+ * Query Params: Paginaçao, filtros, ordenaçao ...
+ */
+
+ /**
+ * Knex: permite que a gente escreva as querys para o banco sql em javascript
+ * Sqlite3: driver para que o node possa se conectar com o banco sqlite.
+ */
+
+ /**
+ * migrations: controlam a versao do banco de dados
+ */
+
+ /**
+ * Cors: permitir que applicacoes de endereços diferentes acessem a nossa API.
+ */
